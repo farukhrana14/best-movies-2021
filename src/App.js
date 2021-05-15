@@ -27,7 +27,7 @@ function App() {
     <div className="App">
       <header className="App-header">
       <h1>BEST MOVIES OF 2020</h1>
-      <Counter></Counter>
+      
      {
         movies.map(movie => <Movies movie= {movie}></Movies>) 
      }
@@ -36,24 +36,6 @@ function App() {
     </div>
   );
 }
-
-function Counter() {
-  const [count, setCount] = useState(0);
-  
-  return (
-    <div>
-      <h2>Count:<span> </span>{count} </h2>
-      <button onClick={() => setCount(count-1)}>Decrease</button> <span> </span>
-      <button onClick={() => setCount(count+1)} >Increase</button>
-    </div>
-
-
-  )
-}
-
-
-
-
 
 function Movies(props) {
   
