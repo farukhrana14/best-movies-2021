@@ -1,7 +1,4 @@
-// import logo from './logo.svg';
-import { useState } from 'react';
 import './App.css';
-// import { findByLabelText } from '@testing-library/react';
 
 function App() {
 
