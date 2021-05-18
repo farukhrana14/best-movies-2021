@@ -17,7 +17,7 @@ function App() {
     
     {name: "The Invisible Man",
     director: "Leigh Whannell",
-    src: "https://d10ukrc8bht4o0.cloudfront.net/images/iva-img/26653dbacd0d042c0a4413cf114251ac/source.jpg"},
+    src: "https://upload.wikimedia.org/wikipedia/en/3/3a/The_Invisible_Man_%282020_film%29_-_release_poster.jpg"},
   ]
 
   return (
